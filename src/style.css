@@ -1,3 +1,28 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px;
+    grid-auto-rows: 200px;
+    grid-gap: 50px;
+  }
+  
+  .grid-item{
+    background-color: whitesmoke;
+    border: 3px lightgrey solid;
+    border-radius: 8px;
+  }
+  
+  .grid-item2{
+    font-size: 30px;
+    
+  }
+
+
+
+
+
+
+
+
 .arena {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
