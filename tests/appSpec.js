@@ -1,4 +1,3 @@
-// Helps to mimic div creations
 let HTMLElements = {};
 document.getElementById = jasmine.createSpy('HTML Element').and.callFake(function (ID) {
   if (!HTMLElements[ID]) {
